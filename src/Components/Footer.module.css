@@ -121,51 +121,6 @@
   transform: translateX(5px);
 }
 
-/* Footer Terms and Conditions */
-.footerTerms {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  margin-top: 32px;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding-top: 24px;
-}
-.footerTermsInner {
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: 12px;
-  padding: 20px 24px;
-  border: 1px solid rgba(255, 255, 255, 0.06);
-}
-.footerTermsHeading {
-  color: #ffffff;
-  font-size: 0.95rem;
-  font-weight: 700;
-  margin: 0 0 10px;
-  letter-spacing: 0.02em;
-}
-.footerTermsIntro {
-  margin: 0 0 12px;
-  color: #ffffff;
-  opacity: 0.85;
-  font-size: 0.85rem;
-  line-height: 1.5;
-}
-.footerTermsList {
-  margin: 0;
-  padding-left: 18px;
-  list-style: disc;
-  color: #ffffff;
-  opacity: 0.85;
-  font-size: 0.8rem;
-  line-height: 1.45;
-}
-.footerTermsList li {
-  margin-bottom: 6px;
-}
-.footerTermsList li:last-child {
-  margin-bottom: 0;
-}
-
 /* Footer Bottom */
 .footerBottom {
   border-top: 1px solid rgba(0, 0, 0, 0.416);

@@ -77,22 +77,6 @@ const Footer = () => {
         </div> */}
       </div>
 
-      {/* Terms and Conditions */}
-      <div className={styles.footerTerms}>
-        <div className={styles.footerTermsInner}>
-          <h4 className={styles.footerTermsHeading}>{t.termsAndConditions.heading}</h4>
-          <p className={styles.footerTermsIntro}>{t.termsAndConditions.intro}</p>
-          <ul className={styles.footerTermsList}>
-            <li>{t.termsAndConditions.point1}</li>
-            <li>{t.termsAndConditions.point2}</li>
-            <li>{t.termsAndConditions.point3}</li>
-            <li>{t.termsAndConditions.point4}</li>
-            <li>{t.termsAndConditions.point5}</li>
-            <li>{t.termsAndConditions.point6}</li>
-          </ul>
-        </div>
-      </div>
-
       {/* Bottom Row */}
       <div className={styles.footerBottom}>
         <div className={styles.footerBottomContent}>
