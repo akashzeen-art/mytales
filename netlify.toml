@@ -2,7 +2,31 @@
   publish = "dist"
   command = "npm run build"
 
-# SPA redirect - must be last
+# SPA redirects - serve index.html for all routes (client-side router handles /terms, /faq, etc.)
+[[redirects]]
+  from = "/terms"
+  to = "/index.html"
+  status = 200
+[[redirects]]
+  from = "/faq"
+  to = "/index.html"
+  status = 200
+[[redirects]]
+  from = "/features"
+  to = "/index.html"
+  status = 200
+[[redirects]]
+  from = "/stories"
+  to = "/index.html"
+  status = 200
+[[redirects]]
+  from = "/pricing"
+  to = "/index.html"
+  status = 200
+[[redirects]]
+  from = "/voice"
+  to = "/index.html"
+  status = 200
 [[redirects]]
   from = "/*"
   to = "/index.html"

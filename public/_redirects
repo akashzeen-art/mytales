@@ -1,2 +1,8 @@
-# SPA fallback
-/*    /index.html   200
+# SPA fallback - serve index.html for all routes so client-side router can handle them
+/terms   /index.html  200
+/faq     /index.html  200
+/features /index.html  200
+/stories /index.html  200
+/pricing /index.html  200
+/voice   /index.html  200
+/*      /index.html  200
