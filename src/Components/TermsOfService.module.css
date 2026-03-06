@@ -1,0 +1,69 @@
+.page {
+  background: #000;
+  color: #fff;
+  min-height: 60vh;
+}
+
+.hero {
+  padding: 96px 20px 48px;
+  background: radial-gradient(120% 120% at 20% 0%, rgba(162, 89, 255, 0.15) 0%, transparent 60%),
+    radial-gradient(120% 120% at 80% 20%, rgba(0, 195, 255, 0.12) 0%, transparent 60%);
+}
+
+.heroInner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.contentSection {
+  padding: 0 20px 80px;
+}
+
+.contentBox {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 40px 36px;
+}
+
+.heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 16px;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.intro {
+  margin: 0 0 24px;
+  opacity: 0.9;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.list {
+  margin: 0;
+  padding-left: 24px;
+  list-style: disc;
+}
+
+.list li {
+  margin-bottom: 12px;
+  opacity: 0.9;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.list li:last-child {
+  margin-bottom: 0;
+}
